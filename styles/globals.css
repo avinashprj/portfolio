@@ -9,5 +9,7 @@
 @layer base {
   body {
     @apply bg-zinc-900;
+    @apply text-gray-200;
+    font-family: sen, system-ui, sans-serif;
   }
 }

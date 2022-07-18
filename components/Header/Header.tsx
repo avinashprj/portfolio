@@ -7,7 +7,7 @@ import { headerLinks } from './header.linksData';
 
 export const Header: NextComponentType = () => (
   <header>
-    <nav className="font-sen py-4 sm:py-8 flex flex-row items-center justify-between text-gray-200 mx-[1.5rem]">
+    <nav className="py-4 sm:py-8 flex flex-row items-center justify-between mx-[0.5rem] sm:mx-0">
       <h1 className="sm:hidden">Avinash</h1>
       <ul className="hidden sm:flex">
         {headerLinks.map((linkItem) => (
