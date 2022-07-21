@@ -12,7 +12,7 @@ export const About: NextComponentType = () => (
       <p className="mt-4 text-gray-400">
         Building Web apps, proficient in Frontend.
       </p>
-      <Link href="https://blog.anurag.tech" passHref>
+      <Link href="https://avinashprj.hashnode.dev" passHref>
         <a
           className="group mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 transition-all duration-150 hover:text-white"
           target="_blank"
