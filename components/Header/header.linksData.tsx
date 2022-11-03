@@ -11,6 +11,11 @@ export const headerLinks: LinkTypes = [
     url: '#',
   },
   {
+    id: 'f85f9fdc-0621f-11ssd-b939-0242ac120002',
+    text: 'Experience',
+    url: '#experience',
+  },
+  {
     id: 'f85f9fdc-069f-11ed-b939-0242ac120002',
     text: 'Projects',
     url: '#projects',
