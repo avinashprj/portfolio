@@ -13,7 +13,7 @@ export const projectsData: ProjectDataTypes[] = [
     sourceLink: 'https://github.com/avinashprj/nucleus-store',
     id: 'nucleus-store',
     title: 'Nucleus-store',
-    img: 'https://user-images.githubusercontent.com/76595361/178334525-1dbd44ca-2c52-4019-8700-4a7906e143ed.png',
+    img: 'https://res.cloudinary.com/dwmd1yjww/image/upload/v1659633209/nucleusStore_hfxtut.png',
     techStack: 'React, react-query, Vanilla CSS and Auth using JWT',
   },
   {
@@ -21,7 +21,7 @@ export const projectsData: ProjectDataTypes[] = [
     sourceLink: 'https://github.com/avinashprj/nucleus-tube',
     id: 'nucleus-tube',
     title: 'Nucleus-tube',
-    img: 'https://user-images.githubusercontent.com/76595361/178335657-85452697-2523-46a1-b127-30f95802d136.png',
+    img: 'https://res.cloudinary.com/dwmd1yjww/image/upload/v1659633204/nucleusTube_ochiam.png',
     techStack:
       'React, Redux-toolkit, RTK-query, Vanilla CSS and Auth using JWT',
   },
