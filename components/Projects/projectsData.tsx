@@ -9,6 +9,14 @@ export type ProjectDataTypes = {
 
 export const projectsData: ProjectDataTypes[] = [
   {
+    liveLink: 'https://nucleus-book.vercel.app',
+    sourceLink: 'https://github.com/avinashprj/nucleus-book',
+    id: 'nucleus-book',
+    title: 'Nucleus-book',
+    img: 'https://res.cloudinary.com/avinashprj/image/upload/v1670864890/Screenshot_2022-12-12_223737_r9fcsn.png',
+    techStack: 'React, Redux-toolkit, Vanilla CSS and Auth using JWT',
+  },
+  {
     liveLink: 'https://nucleus-store.vercel.app',
     sourceLink: 'https://github.com/avinashprj/nucleus-store',
     id: 'nucleus-store',
