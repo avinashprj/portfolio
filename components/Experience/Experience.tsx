@@ -340,7 +340,7 @@ export const Experience: NextComponentType = () => (
           Frontend intern
         </p>
         <p className="my-0 text-lg font-bold">Zeza</p>
-        <p className="my-0 text-sm  text-gray-300">Aug 2022 - Present</p>
+        <p className="my-0 text-sm  text-gray-300">Aug 2022 - Nov 2022</p>
         <ul className="work  text-gray-400">
           <li>
             Core Responsibility: fixing bugs faced by the clients in the project
@@ -363,6 +363,103 @@ export const Experience: NextComponentType = () => (
           <li>
             <span className="text-foreground text-gray-200">Tools:</span>
             &nbsp; Figma, Postman
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div className="flex relative border-l border-l-gray-600 px-4 py-2  border-gray-400">
+      <span className="w-2 h-2 bg-gray-600 -left-1 rounded-full absolute top-1/2 -translate-y-1/2" />
+      <a
+        href="https://setu.co"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-16 h-16 flex items-center justify-center shadow-none hover:shadow-none text-foreground"
+      >
+        <svg
+          id="Layer_1"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 350 350"
+        >
+          <defs>
+            <style
+              dangerouslySetInnerHTML={{
+                __html: '.cls-1{fill:#20014b;}.cls-2{fill:#42cacd;}',
+              }}
+            />
+          </defs>
+          <path
+            id="Path_176"
+            data-name="Path 176"
+            className="cls-1"
+            d="M175,350A175,175,0,1,0,0,175,175,175,0,0,0,175,350"
+          />
+          <g id="Group_20" data-name="Group 20">
+            <path
+              id="Path_177"
+              data-name="Path 177"
+              className="cls-2"
+              d="M231,235H115V224H230.94a5.85,5.85,0,0,1,5.64,5.64,5.62,5.62,0,0,1-5.64,5.36"
+            />
+            <path
+              id="Path_178"
+              data-name="Path 178"
+              className="cls-2"
+              d="M220,257H115V246H219.89a5.62,5.62,0,0,1,5.37,5.64,5.38,5.38,0,0,1-5.37,5.36"
+            />
+            <path
+              id="Path_179"
+              data-name="Path 179"
+              className="cls-2"
+              d="M231.07,93a5.39,5.39,0,0,1,5.37,5.37,5.62,5.62,0,0,1-5.37,5.63H126V93Z"
+            />
+            <path
+              id="Path_180"
+              data-name="Path 180"
+              className="cls-2"
+              d="M231.08,115a5.38,5.38,0,0,1,5.37,5.36,5.63,5.63,0,0,1-5.37,5.64H115V115Z"
+            />
+            <path
+              id="Path_181"
+              data-name="Path 181"
+              className="cls-2"
+              d="M153.29,137a5.86,5.86,0,0,1,5.64,5.64,5.62,5.62,0,0,1-5.64,5.36H104V137Z"
+            />
+            <path
+              id="Path_182"
+              data-name="Path 182"
+              className="cls-2"
+              d="M240.69,202a5.85,5.85,0,0,1,5.64,5.63,5.63,5.63,0,0,1-5.64,5.37H191V202Z"
+            />
+            <path
+              id="Path_183"
+              data-name="Path 183"
+              className="cls-2"
+              d="M219.9,159a5.38,5.38,0,0,1,5.36,5.36A5.6,5.6,0,0,1,219.9,170H115V159Z"
+            />
+            <path
+              id="Path_184"
+              data-name="Path 184"
+              className="cls-2"
+              d="M231,191H126V180H231.15a5.61,5.61,0,0,1,5.36,5.64,5.38,5.38,0,0,1-5.36,5.36"
+            />
+          </g>
+        </svg>
+      </a>
+      <div className="w-full ml-4">
+        <p className="my-0 text-foreground font-bold text-xl">
+          Frontend intern
+        </p>
+        <p className="my-0 text-lg font-bold">Setu</p>
+        <p className="my-0 text-sm  text-gray-300">Dec 2022 - Present</p>
+        <ul className="work  text-gray-400">
+          <li>
+            <span className="text-foreground text-gray-200">Tech Stack:</span>
+            &nbsp; NextJS, Typescript, styled-components
+          </li>
+          <li>
+            <span className="text-foreground text-gray-200">Tools:</span>
+            &nbsp; Figma, Jira
           </li>
         </ul>
       </div>
