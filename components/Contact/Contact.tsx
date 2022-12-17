@@ -5,13 +5,13 @@ import { AiOutlineGithub, AiOutlineTwitter, AiFillHeart } from 'react-icons/ai';
 import Link from 'next/link';
 
 export const Contact: NextComponentType = () => (
-  <div className="my-16 px-3 font-sen" id="contact">
-    <p className="text-3xl font-bold text-white">Get in touch</p>
+  <div className="mt-16 pb-16 px-3 font-sen" id="contact">
+    <p className="text-3xl font-bold dark:text-white">Get in touch</p>
 
     <div className="mt-8 mb-6 flex flex-row justify-center gap-x-4">
       <Link href="https://github.com/avinashprj" passHref>
         <a
-          className="rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2  "
+          className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="github-profile"
@@ -21,7 +21,7 @@ export const Contact: NextComponentType = () => (
       </Link>
       <Link href="https://twitter.com/avinash_prj" passHref>
         <a
-          className="rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2  "
+          className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="twitter-profile"
@@ -31,7 +31,7 @@ export const Contact: NextComponentType = () => (
       </Link>
       <Link href="https://linkedin.com/in/avinash-prajapati" passHref>
         <a
-          className="rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2  "
+          className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="github-repo"
@@ -41,7 +41,7 @@ export const Contact: NextComponentType = () => (
       </Link>
       <Link href="mailto:kr.avinashprajapati914@gmail.com" passHref>
         <a
-          className="rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2  "
+          className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="github-repo"

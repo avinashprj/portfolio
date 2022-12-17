@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const Experience: NextComponentType = () => (
   <div className="my-16 px-3 font-sen ctx" id="experience">
-    <p className="text-3xl font-bold text-white mb-8">Experience</p>
+    <p className="text-3xl font-bold dark:text-white mb-8">Experience</p>
 
     <div className="flex relative border-l border-l-gray-600 px-4 py-2  border-gray-400">
       <span className="w-2 h-2 bg-gray-600 -left-1 rounded-full absolute top-1/2 -translate-y-1/2" />
@@ -340,8 +340,10 @@ export const Experience: NextComponentType = () => (
           Frontend intern
         </p>
         <p className="my-0 text-lg font-bold">Zeza</p>
-        <p className="my-0 text-sm  text-gray-300">Aug 2022 - Nov 2022</p>
-        <ul className="work  text-gray-400">
+        <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
+          Aug 2022 - Nov 2022
+        </p>
+        <ul className="work dark:text-gray-400 text-gray-600">
           <li>
             Core Responsibility: fixing bugs faced by the clients in the project
           </li>
@@ -351,17 +353,21 @@ export const Experience: NextComponentType = () => (
               href="https://folder-structure-poc.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
-              className=" ml-1 text-foreground text-gray-200 underline"
+              className=" ml-1 text-foreground dark:text-gray-200 text-blue-500 underline"
             >
               Link
             </a>
           </li>
           <li>
-            <span className="text-foreground text-gray-200">Tech Stack:</span>
+            <span className="text-foreground dark:text-gray-200 font-bold">
+              Tech Stack:
+            </span>
             &nbsp; NextJS, Bootstrap
           </li>
           <li>
-            <span className="text-foreground text-gray-200">Tools:</span>
+            <span className="text-foreground dark:text-gray-200 font-bold">
+              Tools:
+            </span>
             &nbsp; Figma, Postman
           </li>
         </ul>
@@ -451,14 +457,20 @@ export const Experience: NextComponentType = () => (
           Frontend intern
         </p>
         <p className="my-0 text-lg font-bold">Setu</p>
-        <p className="my-0 text-sm  text-gray-300">Dec 2022 - Present</p>
-        <ul className="work  text-gray-400">
+        <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
+          Dec 2022 - Present
+        </p>
+        <ul className="work dark:text-gray-400 text-gray-600">
           <li>
-            <span className="text-foreground text-gray-200">Tech Stack:</span>
+            <span className="text-foreground dark:text-gray-200 font-bold">
+              Tech Stack:
+            </span>
             &nbsp; NextJS, Typescript, styled-components
           </li>
           <li>
-            <span className="text-foreground text-gray-200">Tools:</span>
+            <span className="text-foreground dark:text-gray-200 font-bold">
+              Tools:
+            </span>
             &nbsp; Figma, Jira
           </li>
         </ul>

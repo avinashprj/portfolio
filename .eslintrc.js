@@ -1,17 +1,17 @@
 module.exports = {
-  extends: ["wesbos/typescript"],
+  extends: ['wesbos/typescript'],
   rules: {
-    "react/prop-types": 0,
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-    "@typescript-eslint/ban-types": [
-      "error",
+    'react/prop-types': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    '@typescript-eslint/ban-types': [
+      'error',
       {
         extendDefaults: true,
         types: {
-          "{}": false,
+          '{}': false,
         },
       },
     ],
   },
-  ignorePatterns: [".eslintrc.js", "./tailwind.config.js"],
+  ignorePatterns: ['.eslintrc.js', './tailwind.config.js'],
 };
