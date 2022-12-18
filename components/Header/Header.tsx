@@ -10,13 +10,11 @@ export const Header: NextComponentType = () => {
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
     if (
       typeof window !== 'undefined' &&
-      localStorage.getItem('theme') === 'dark'
+      localStorage.getItem('theme') === 'light'
     ) {
-      return 'dark';
-    }
-    if (typeof window !== 'undefined')
       document.documentElement.classList.remove('dark');
-    return 'light';
+      return 'light';
+    } else return 'dark';
   });
   const toggleTheme = () => {
     if (document.documentElement.classList.contains('dark')) {
