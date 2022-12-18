@@ -33,7 +33,7 @@ export const ProjectCard: NextComponentType<
         </Link>
       </div>
       <div className="peer-hover:blur-sm group hover:blur-sm transition-all duration-300 relative flex flex-col  space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xl md:max-w-3xl mx-auto border border-white bg-white">
-        <div className="w-full  bg-white grid place-items-center">
+        <div className="w-full bg-white grid place-items-center">
           <img
             src={img}
             alt="tailwind logo"

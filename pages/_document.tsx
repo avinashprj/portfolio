@@ -9,7 +9,7 @@ import Document, {
 
 class MyDocument extends Document {
   static async getInitialProps(
-    ctx: DocumentContext
+    ctx: DocumentContext,
   ): Promise<DocumentInitialProps> {
     const originalRenderPage = ctx.renderPage;
 
@@ -30,7 +30,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className="dark">
         <Head />
         <body>
           <Main />
