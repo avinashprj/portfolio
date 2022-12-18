@@ -7,7 +7,6 @@ import Link from 'next/link';
 export const Experience: NextComponentType = () => (
   <div className="my-16 px-3 font-sen ctx" id="experience">
     <p className="text-3xl font-bold dark:text-white mb-8">Experience</p>
-
     <div className="flex relative border-l border-l-gray-600 px-4 py-2  border-gray-400">
       <span className="w-2 h-2 bg-gray-600 -left-1 rounded-full absolute top-1/2 -translate-y-1/2" />
       <a

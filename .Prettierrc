@@ -1,1 +1,1 @@
-{ 'singleQuote': false, 'endOfLine': 'auto' }
+{ "endOfLine": "auto", "singleQuote": true }
