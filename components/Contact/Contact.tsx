@@ -53,7 +53,7 @@ export const Contact: NextComponentType = () => (
     <div className="flex flex-row justify-center items-center text-gray-400">
       made with <AiFillHeart className=" mx-1 text-red-500" /> and NextJS
     </div>
-    <div className="flex flex-row justify-center text-gray-500">
+    <div className="flex flex-row justify-center text-gray-400">
       © {new Date().getFullYear()} Avinash Prajapati
     </div>
   </div>

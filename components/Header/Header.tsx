@@ -49,6 +49,7 @@ export const Header: NextComponentType = () => {
             type="button"
             className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
             onClick={toggleTheme}
+            aria-label="theme-toggle"
           >
             {theme === 'dark' ? (
               <MdOutlineDarkMode className="w-5 h-5 " />
