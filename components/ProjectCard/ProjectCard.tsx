@@ -45,9 +45,9 @@ export const ProjectCard: NextComponentType<
         </div>
         <div className=" bg-white flex flex-col p-3">
           <div className="flex justify-between item-center" />
-          <h3 className="font-black text-gray-800 md:text-3xl text-xl">
+          <h1 className="font-black text-gray-800 md:text-3xl text-xl">
             {title}
-          </h3>
+          </h1>
           <p className="md:text-lg text-gray-500 text-base mt-2">
             <span className="text-m font-black text-gray-800 ">
               Tech Stack:
