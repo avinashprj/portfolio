@@ -2,6 +2,7 @@ import type { NextComponentType, NextPageContext } from 'next';
 import { BiLink } from 'react-icons/bi';
 import Link from 'next/link';
 import { ProjectDataTypes } from '../Projects/projectsData';
+import Image from 'next/image';
 
 export const ProjectCard: NextComponentType<
   NextPageContext,
@@ -34,10 +35,12 @@ export const ProjectCard: NextComponentType<
       </div>
       <div className="peer-hover:blur-sm group hover:blur-sm transition-all duration-300 relative flex flex-col  space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xl md:max-w-3xl mx-auto border border-white bg-white">
         <div className="w-full bg-white grid place-items-center">
-          <img
+          <Image
+            width={'900px'}
+            height={'500px'}
             src={img}
             alt="tailwind logo"
-            className="rounded-xl object-cover"
+            className="rounded-xl object-cover "
           />
         </div>
         <div className=" bg-white flex flex-col p-3">
