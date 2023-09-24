@@ -34,7 +34,12 @@ export const About: NextComponentType = () => (
       </Link>
     </div>
     <div className="hidden custom:block">
-      <Image src="/assets/myself.png" width="200" height="200" alt="avatar" />
+      <Image
+        src="https://res.cloudinary.com/avinashprj/image/upload/v1695561897/hero_xzi8xc.png"
+        width="200"
+        height="200"
+        alt="avatar"
+      />
     </div>
   </section>
 );
