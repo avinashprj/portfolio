@@ -6,7 +6,7 @@ export const Skills = () => (
     <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
       <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
         <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">React</span>
+        <span className="dark:text-white font-bold">Next.js</span>
         &nbsp;as my Frontend Framework
       </p>
 
@@ -24,7 +24,7 @@ export const Skills = () => (
 
       <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
         <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">Redux</span>
+        <span className="dark:text-white font-bold">Redux toolkit</span>
         &nbsp;as my State Management tool
       </p>
     </div>
