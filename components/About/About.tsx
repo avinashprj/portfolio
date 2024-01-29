@@ -35,10 +35,12 @@ export const About: NextComponentType = () => (
     </div>
     <div className="hidden custom:block">
       <Image
-        src="https://res.cloudinary.com/avinashprj/image/upload/v1695561897/hero_xzi8xc.png"
+        src="https://res.cloudinary.com/avinashprj/image/upload/v1706524463/IMG_0900_lgnuiz.jpg"
         width="200"
         height="200"
+        objectFit="cover"
         alt="avatar"
+        style={{ borderRadius: '50%' }}
       />
     </div>
   </section>
