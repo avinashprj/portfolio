@@ -89,11 +89,11 @@ export const Experience: NextComponentType = () => (
       </a>
       <div className="w-full ml-2 sm:ml-4 ">
         <p className="my-0 text-foreground font-bold text-xl">
-          Frontend intern
+         SDE I - Frontend
         </p>
         <p className="my-0 text-lg font-bold">Setu</p>
         <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
-          Dec 2022 - Present
+          Apr 2024 - Present
         </p>
         <ul className="work dark:text-gray-400 text-gray-600">
           <li>
@@ -197,7 +197,7 @@ export const Experience: NextComponentType = () => (
         </p>
         <p className="my-0 text-lg font-bold">Setu</p>
         <p className="my-0 text-sm  dark:text-gray-300 text-gray-500">
-          Dec 2022 - Present
+          Dec 2022 - Mar 2024
         </p>
         <ul className="work dark:text-gray-400 text-gray-600">
           <li>
