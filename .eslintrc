@@ -2,6 +2,8 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "prefer-const": "error",
-    "@next/next/no-img-element": 0
+    "@next/next/no-img-element": 0,
+    "@next/next/no-html-link-for-pages": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
