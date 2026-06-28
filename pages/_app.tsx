@@ -13,10 +13,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title="Avinash | Frontend Developer"
-        titleTemplate="Avinash | Frontend Developer"
-        defaultTitle="Avinash | Frontend Developer"
-        description="Hey! I'm Avinash, A Frontend Developer and a Student!"
+        title="Avinash | Fullstack Engineer"
+        titleTemplate="Avinash | Fullstack Engineer"
+        defaultTitle="Avinash | Fullstack Engineer"
+        description="Hey! I'm Avinash, A Fullstack Engineer and a Student!"
         twitter={{
           handle: '@avinash_prj',
           site: '@avinash_prj',
@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: 'keywords',
             content:
-              'Frontend Developer, avinash, avinashprj,avinash prajapati, Web Developer, web development, web developer, blogger, tech enthusiast, open source',
+              'Fullstack Engineer, Frontend Developer, avinash, avinashprj, avinash prajapati, Web Developer, web development, web developer, blogger, tech enthusiast, open source',
           },
         ]}
       />

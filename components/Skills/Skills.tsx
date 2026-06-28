@@ -2,40 +2,57 @@ import { BsArrowRightShort } from 'react-icons/bs';
 
 export const Skills = () => (
   <section className="my-16 px-3" id="skills">
-    <p className="text-3xl font-bold dark:text-white">Skills & Uses</p>
-    <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
-      <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
-        <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">Next.js</span>
-        &nbsp;as my Frontend Framework
-      </p>
+    <p className="text-3xl font-bold dark:text-white">Skills & Technologies</p>
+    <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg gap-y-4">
+      <div className="border-b-[0.1px] border-gray-500 pb-3">
+        <p className="text-foreground dark:text-white font-bold mb-2 flex items-center">
+          <BsArrowRightShort size="30" className="text-gray-500" />
+          Languages
+        </p>
+        <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
+          Go, TypeScript, JavaScript, Python, SQL
+        </p>
+      </div>
 
-      <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
-        <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">Typescript </span>
-        &nbsp;as my main language
-      </p>
+      <div className="border-b-[0.1px] border-gray-500 pb-3">
+        <p className="text-foreground dark:text-white font-bold mb-2 flex items-center">
+          <BsArrowRightShort size="30" className="text-gray-500" />
+          Frontend
+        </p>
+        <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
+          React, Next.js (App/Pages), Zustand, Tailwind CSS, Shadcn UI, Radix UI, TanStack Query/Table, Styled Components, Redux Toolkit
+        </p>
+      </div>
 
-      <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
-        <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">Tailwind CSS </span>
-        &nbsp;as my CSS framework
-      </p>
+      <div className="border-b-[0.1px] border-gray-500 pb-3">
+        <p className="text-foreground dark:text-white font-bold mb-2 flex items-center">
+          <BsArrowRightShort size="30" className="text-gray-500" />
+          Backend & Distributed Systems
+        </p>
+        <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
+          Node.js, Express, Goa (Go framework), Temporal (Distributed Workflows), sqlc, OpenAPI
+        </p>
+      </div>
 
-      <p className="flex flex-row flex-wrap items-center border-b-[0.1px] border-gray-500 py-1 dark:text-slate-300 text-slate-600">
-        <BsArrowRightShort size="30" />
-        <span className="dark:text-white font-bold">Redux toolkit</span>
-        &nbsp;as my State Management tool
-      </p>
+      <div className="border-b-[0.1px] border-gray-500 pb-3">
+        <p className="text-foreground dark:text-white font-bold mb-2 flex items-center">
+          <BsArrowRightShort size="30" className="text-gray-500" />
+          Cloud, Databases & DevOps
+        </p>
+        <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
+          AWS (ECS, Lambda, SQS, SNS, S3, DynamoDB), SST (Serverless Stack), PostgreSQL, DynamoDB, ClickHouse, MongoDB, Docker, Turborepo, CI/CD, OpenNext
+        </p>
+      </div>
+
+      <div className="pb-3">
+        <p className="text-foreground dark:text-white font-bold mb-2 flex items-center">
+          <BsArrowRightShort size="30" className="text-gray-500" />
+          Testing, Tools & Monitoring
+        </p>
+        <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
+          Playwright, Jest, React Testing Library, MSW, Storybook, Sentry, PostHog, Grafana, Figma, Git, Postman
+        </p>
+      </div>
     </div>
-
-    <p className="text-lg font-medium dark:text-slate-300 text-slate-600">
-      ...more skills include{' '}
-      <span className="dark:text-white text-slate-600 font-bold">
-        javascript
-      </span>
-      , <span className="dark:text-white text-slate-600 font-bold">HTML5</span>,{' '}
-      <span className="dark:text-white text-slate-600 font-bold">CSS3 </span>{' '}
-    </p>
   </section>
 );

@@ -10,7 +10,7 @@ export const Contact: NextComponentType = () => (
     <div className="mt-8 mb-6 flex flex-row justify-center gap-x-4">
       <a
         href="https://github.com/avinashprj"
-        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2 active:scale-90"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="github-profile"
@@ -19,7 +19,7 @@ export const Contact: NextComponentType = () => (
       </a>
       <a
         href="https://twitter.com/avinash_prj"
-        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2 active:scale-90"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="twitter-profile"
@@ -28,19 +28,19 @@ export const Contact: NextComponentType = () => (
       </a>
       <a
         href="https://linkedin.com/in/avinash-prajapati"
-        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2 active:scale-90"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="github-repo"
+        aria-label="linkedin-profile"
       >
         <GrLinkedinOption />
       </a>
       <a
         href="mailto:kr.avinashprajapati914@gmail.com"
-        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+        className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2 active:scale-90"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="github-repo"
+        aria-label="email-link"
       >
         <MdEmail />
       </a>
