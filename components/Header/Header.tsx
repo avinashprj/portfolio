@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import type { NextComponentType } from 'next';
-import Link from 'next/link';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { MdOutlineDarkMode, MdOutlineLightMode } from 'react-icons/md';
 import { TextLink } from '../TextLinks/TextLinks';
@@ -57,16 +56,15 @@ export const Header: NextComponentType = () => {
               <MdOutlineLightMode className="w-5 h-5 " />
             )}
           </button>
-          <Link href="https://github.com/avinashprj" passHref>
-            <a
-              className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="github-repo"
-            >
-              <VscGithubAlt />
-            </a>
-          </Link>
+          <a
+            href="https://github.com/avinashprj"
+            className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github-repo"
+          >
+            <VscGithubAlt />
+          </a>
         </div>
       </nav>
     </header>
