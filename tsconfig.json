@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2022",
     "lib": [
       "dom",
       "dom.iterable",

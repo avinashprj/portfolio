@@ -10,7 +10,7 @@ export const Skills = () => (
           Languages
         </p>
         <p className="text-sm dark:text-zinc-300 text-zinc-600 pl-7">
-          Go, TypeScript, JavaScript, Python, SQL
+          TypeScript, JavaScript, Go, Python, SQL
         </p>
       </div>
 
